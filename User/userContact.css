@@ -1,0 +1,57 @@
+body {
+  background-image: url("../Images/mainBG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#contactLink {
+    color: rgb(255, 0, 0);
+}
+#contactDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 120px auto 0 auto;
+    background-color: rgba(128, 0, 0, 0.7);
+    width: 100%;
+    height: 350px;
+}
+#followUsLabel, #parishName, #contactUsLabel, #gCashNum, #messageUsLink {
+    color: white;
+    font-size: 40px;
+    text-shadow: 10px 10px 10px black;
+}
+#labelDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    background-color: rgba(128, 0, 0, 0.7);
+    width: 100%;
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+.logos2, .logos3 {
+    margin: 0 10px;
+}
+
+#fbLogoBlack {
+    filter: invert(1);
+    border-radius: 20px;
+    width: 80px;
+}
+
+#igLogoBlack {
+    width: 80px;
+}
+
+.logos2, .logos3:hover {
+    cursor: pointer;
+}
+#gCashNum {
+    color: red;
+}

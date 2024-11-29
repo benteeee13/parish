@@ -1,0 +1,26 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+#settingsDiv {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto 50px auto;
+    flex-direction: column;
+}
+
+.fields {
+    width: 650px;
+    margin-bottom: 15px;
+}
+
+.btn {
+
+    width: 150px;
+}

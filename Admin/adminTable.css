@@ -1,0 +1,219 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 16px;
+}
+.bg:nth-child(odd) {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(125, 0, 0));
+    opacity: 70%;
+}
+.bg:nth-child(even) {
+    background: #fff;
+    opacity: 70%;
+    color: black;
+}
+.bg {
+    height: 100px;
+    font-size: 3rem;
+}
+#mainPage {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
+a {
+    display: block;
+    margin: 10px 0;
+}
+h2 {
+    color: white;
+}
+a {
+    text-decoration: underline;
+}
+#logoutLink {
+    margin-left: 90%;
+    font-size: 30px;
+}
+#viewButtons {
+    color: white;
+    width: 75px;
+    border: none;
+    background-color: gray;
+}
+#messageButtons {
+    color: white;
+    width: 75px;
+    border: none;
+    background-color: gray;
+}
+
+#viewButtons:hover {
+    background-color: rgb(0, 150, 255);
+}
+
+#messageButtons:hover {
+    background-color: rgb(0, 150, 255);
+}
+
+#editButton {
+    color: white;
+    padding: 5px;
+    background-color: gray;
+}
+
+#editButton:hover {
+    background-color: rgb(0, 150, 255);
+}
+
+#userReqInfo {
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+}
+
+#reqInfoLabel {
+    font-size: 25px;
+}
+
+#applicantInfos, #weddingApplicantInfos {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.applicantData, .weddingApplicantData {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.applicantDataLabel {
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+.weddingApplicantDataLabel {
+    margin-top: -20px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+#backButton {
+    width: 80px;
+    height: 30px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+#archiveButton, #backButton, #sendButton {
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+}
+
+#sendButton, #archiveButton {
+    width: 80px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+#sendButton {
+    margin-right: 0;
+}
+
+#sendButton:hover {
+    background-color:green;
+}
+
+#archiveButton:hover {
+    background-color:darkred;
+}
+
+#forButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure vertical alignment */
+    margin-top: 20px;
+}
+
+#leftButtons, #rightButtons {
+    display: flex;
+    align-items: center; /* Ensure vertical alignment */
+}
+
+#rightButtons button {
+    margin-left: 10px; /* Add some space between the archive and send buttons */
+}
+
+#backButton:hover {
+    background-color: rgb(0, 150, 255);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+    white-space: nowrap; /* Ensures the buttons stay in one line */
+}
+#weddingApplicationLabel, #baptismApplicationLabel {
+    color: white;
+}
+#bottomSide { 
+    max-height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid black;
+    padding: 0 40px 0 40px;
+    margin: 0 200px 0 200px;
+    align-items: center;               /* Center horizontally */
+    justify-content: center;           /* Center vertically */
+    text-align: center;                /* Center text within */
+}
+.funeralApplicantData {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.funeralApplicantDataLabel {
+    margin-top: -20px;
+    font-size: 20px;
+}
+
+#commentsLabel {
+    margin-top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+#bottomSide1 {
+    align-items: center;               /* Center horizontally */
+    justify-content: center;           /* Center vertically */
+    text-align: center;                /* Center text within */
+}
+
+
+#completeButton {
+    border: none;
+    background-color: gray;
+    color: white;
+}
+
+#completeButton:hover {
+    background-color: blue;
+}
+
+.action-buttons {
+    justify-content: center;
+}
+
+.action-buttons button {
+    display: inline-block;
+    margin: auto;
+}
+

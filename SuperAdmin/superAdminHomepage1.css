@@ -1,0 +1,61 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-size: 16px;
+}
+.bg:nth-child(odd) {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(125, 0, 0));
+    opacity: 70%;
+}
+.bg:nth-child(even) {
+    background: #fff;
+    opacity: 70%;
+    color: black;
+}
+.bg {
+    height: 100px;
+    font-size: 3rem;
+}
+#mainPage {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto 0 auto;
+}
+a {
+    display: block;
+    margin: 10px 0;
+}
+h2 {
+    color: white;
+}
+a {
+    text-decoration: underline;
+}
+#logoutLink {
+    margin-left: 90%;
+    font-size: 30px;
+}
+
+#approveButtons, #declineButtons {
+    background-color: gray;
+    width: 75px;
+    border: none;
+    color: white;
+}
+
+#approveButtons:hover {
+    background-color: rgb(0, 200, 0);
+}
+#declineButtons:hover {
+    background-color: rgb(255, 0, 0);
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+    white-space: nowrap; /* Ensures the buttons stay in one line */
+}

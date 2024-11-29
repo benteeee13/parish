@@ -1,0 +1,46 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.table-container {
+    margin: 0 auto; /* Center-align the table container */
+}
+
+.container-fluid {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#requestButtons {
+    border: none;
+    background-color: gray;
+    color: white;
+}
+#requestButtons:hover {
+    background-color: blue;
+}
+
+/* Ensure consistent button appearance */
+#requestButtons {
+    white-space: nowrap; /* Prevent text wrapping */
+    padding: 5px 10px; /* Adjust padding for a slimmer button */
+    font-size: 14px; /* Adjust font size to fit text in a single line */
+    line-height: 1.2; /* Make the line-height smaller to reduce button height */
+}
+
+/* Optional: Adjust button width for consistency */
+.action-buttons {
+    min-width: 120px; /* Set a minimum width if desired */
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center; /* Vertically centers the button */
+    justify-content: center; /* Centers the button horizontally if there's extra space */
+}
+
+.table-wrapper {
+    width: 100%; /* Adjust as needed for your layout */
+}

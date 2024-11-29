@@ -1,0 +1,51 @@
+#tabSelection {
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(125, 0, 0));
+    width: 250px; /* Set a fixed width for the sidebar */
+    color: white;
+    position: fixed; /* Fix the sidebar to the left */
+    top: 0; /* Make sure the sidebar starts at the top of the viewport */
+    bottom: 0; /* Extend the sidebar to the bottom of the viewport */
+    height: 100vh; /* Full viewport height */
+    left: 0; /* Position the sidebar at the very left */
+}
+#userProfilePic {
+    margin-top: 5px;
+    width: 40px;
+    height: 40px; /* Fixed height for the profile pic */
+    border-radius: 50%; /* Make the profile pic round */
+    margin-left: 10px; /* Add some spacing from the left edge */
+}
+#profileInfo {
+    display: flex;
+    align-items: center;
+    padding: 10px; /* Add some padding around the profile info */
+}
+#usernameDisplay2 {
+    margin-left: 5px;
+    margin-top: 16px; /* Space between the profile pic and name */
+}
+#tabLine {
+    border: 2px solid rgb(110, 0, 0);
+    margin: 10px 0; /* Margin above and below the line */
+}
+#dashBoardArea, #maintenanceArea, #formsArea {
+    padding: 10px; /* Add padding to each section */
+}
+#dashBoardLabel, #maintenanceLabel, #formsLabel {
+    font-size: x-small;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space below the section labels */
+}
+#dashBoardLinks, #maintenanceLinks, #formsLinks {
+    font-weight: bold;
+    line-height: 2.5; /* Line height for better spacing between links */
+}
+a {
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    display: block; /* Make links block-level for easier spacing */
+    margin-bottom: 5px; /* Space between links */
+}
+a:hover {
+    text-decoration: underline; /* Underline on hover for better visibility */
+}

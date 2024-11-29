@@ -1,0 +1,105 @@
+body {
+  background-image: url("../Images/mainBG.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#aboutLink {
+    color: rgb(255, 0, 0);
+}
+#aboutLabel {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+#aboutDiv {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin: 100px auto 50px auto;
+}
+#parokyaPic {
+    width: 85%;
+    height: 600px;
+    margin-left: auto;
+}
+#firstInfo {
+    margin-top: 60px;
+}
+#secondInfo {
+  margin-bottom: 60px;
+}
+.info2ndMini {
+    margin-top: -10px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.info1st, .info2nd, .info3rd, .info4th {
+    font-size: 20px;
+}
+#kasaysayanLabel {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+#thirdInfo {
+  margin-bottom: 60px;
+}
+#fourthInfo {
+  margin-bottom: 60px;
+}
+
+#logosDiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%; /* Adjust width as needed */
+}
+
+.logos {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.label {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#quickLinksSection {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.quickLinks {
+    display: flex;
+    font-weight: normal;
+    margin-bottom: 10px;
+    color: red;
+    text-decoration: underline;
+    flex-direction: column;
+}
+
+.quickLinks:hover {
+    color: red;
+}
+
+#logo1st, #logo2nd {
+    margin-bottom: 40px;
+}
+.logoContainer {
+    margin-bottom: 40px;
+}

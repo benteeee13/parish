@@ -1,0 +1,57 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+#mainSettings {
+    gap: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto 0 auto;
+}
+.sOption {
+    opacity: 70%;
+    color: black;
+}
+.sOption {
+    height: 100px;
+    font-size: 3rem;
+}
+.sOption:nth-child(odd) {
+    background-color:red;
+}
+.sOption:nth-child(even) {
+    background-color:white;
+}
+#settingsDiv {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto 50px auto;
+    flex-direction: column;
+}
+
+.fields {
+    width: 650px;
+    margin-bottom: 15px;
+}
+
+.btn {
+
+    width: 150px;
+}
+
+#showPassLabel {
+    font-size: 12px; /* Adjust to your desired size */
+    margin-left: 5px; /* Adds some space between the checkbox and the label */
+    vertical-align: middle; /* Aligns the label text with the checkbox */
+}
+
+.form-check-input {
+    vertical-align: middle;
+}

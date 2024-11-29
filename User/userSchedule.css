@@ -1,0 +1,46 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.label {
+    height: 100px;
+    font-size: 3rem;
+}
+#mainDiv {
+    margin: 5%;
+    margin-top: 6%;
+}
+#forLabel {
+    color: white;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.7);
+    width: 30%;
+}
+#sched {
+    height: 450px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+#pic {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 50px;
+    background-color: blue;
+    width: 30%;
+    height: 180px;
+}
+#schedList {
+    margin: 30px ;
+    background-color: rgba(255, 0, 0, 0.7) ;
+    width: 65%;
+    height: 150px;
+}
+#moreInfo {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 15px;
+}

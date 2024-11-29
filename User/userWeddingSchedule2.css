@@ -1,0 +1,81 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.label {
+    height: 100px;
+    font-size: 3rem;
+}
+#mainDiv {
+    margin: 5%;
+    margin-top: 6%;
+}
+#forLabel {
+    color: white;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.7);
+    width: 35%;
+}
+#sched {
+    height: 500px;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.7);
+}
+#pic {
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 50px;
+    background-color: blue;
+    width: 30%;
+    height: 180px;
+}
+#schedList {
+    margin: 30px ;
+    background-color: rgba(255, 0, 0, 0.7) ;
+    width: 65%;
+    height: 150px;
+}
+#moreInfo1, #moreInfo2, #moreInfo3, #moreInfo4, #moreInfo5, #moreInfo6, #moreInfo7{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 15px;
+}
+#btnApplication, #btnBack {
+    border-radius: 0;
+    border: none;
+    margin-right: 12px;
+    margin-left: 12px;
+    width: 10%;
+}
+#buttonsDiv {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.reqInfo {
+    margin: 0 15px;
+}
+#monthLabel {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.dateContainer {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sampleDate {
+    font-size: 30px;
+    font-weight: lighter;
+    color: white;
+    width: 45%; /* Adjust width as needed */
+    margin-bottom: 10px; /* Space between rows */
+}
+.sampleDate:hover {
+    color: white;
+}

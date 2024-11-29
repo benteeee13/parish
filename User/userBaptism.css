@@ -1,0 +1,226 @@
+body {
+    background-image: url("../Images/mainBG.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.label {
+    background: rgb(255, 0, 0);
+    opacity: 70%;
+}
+.bg {
+    background: #fff;
+    opacity: 70%;
+    color: black;
+}
+.bg, .label {
+    height: 100px;
+    font-size: 3rem;
+}
+#baptismOptions, #formFillUp, #userInfoDiv, #details {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    margin: 100px auto 0 auto;
+}
+h2 {
+    color: white;
+}
+a{
+    text-decoration: underline;
+}
+div a {
+    display: block;
+    margin: 10px 0;
+}
+#superMain {
+    margin: auto;
+    margin-top: 100px;
+    padding: 0;
+}
+#serviceTwoLink {
+    color: rgb(255, 0, 0);
+}
+#notice, #detailsContent, #thankYou {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+    height: 400px;
+}
+button {
+    border: none;
+}
+#btnCancel, #btnBack {
+    border: none;
+    background: rgb(135, 135, 135);
+    margin-right: 12px;
+    margin-left: 12px;
+}
+
+#btnAccept, #btnNext, #btnSend, #btnOk, #btnHome {
+    border: none;
+    background: rgb(29, 78, 255);
+    color: white;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+#confirmationCheckBox{
+    transform: scale(3);
+}
+#p1 {
+    margin-left: 10px;
+}
+#reqInfoLabel {
+    margin-left: 10px;
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: -15px;
+}
+.textFields {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#baptismOptions, #formFillUp, #userInfoDiv, #details, #thankYou {
+            max-width: 800px; /* Adjust as needed */
+        }
+#forComment {
+    height: 118px;
+    margin-top: none;
+}
+.right-side {
+    width: 48%;
+}
+.left-side {
+    width: 48%;
+    margin-right: 2%;
+}
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#commentLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+#commentText {
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    resize: none;
+    margin-bottom: -10px;
+}
+#userInfoLabel {
+    margin: 0 34%;
+    font-size: 25px;
+    text-align: left;
+}
+#infoContent {
+    margin: 5px 96px;
+    border: solid 2px;
+}
+.userData {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+.userDataLabel {
+    font-size: 10px;
+    margin: 0;
+}
+#confirmLabel {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: -2px;
+}
+#detailsLabel {
+    font-weight: bold;
+}
+.detailsText {
+    font-size: 25px;
+}
+#forBG {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #A1D99B; /* Light green */
+    position: relative;
+    margin: auto; /* Center the circle */
+    margin-top: 0px;
+}
+#thankYou {
+    padding-top: 50px;
+}
+/* Checkmark shape */
+#checkMark {
+    width: 45px;
+    height: 80px;
+    border: solid #ffffff;
+    border-width: 0 10px 10px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 25%;
+}
+#thankU {
+    font-weight: bold;
+    margin-top: 20px;
+}
+#requestSentNotice {
+    font-size: 20px;
+}
+#btnHome {
+    margin-bottom: -10%;
+}
+#datePick {
+    display: block;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#dateLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+#childNameLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: -17px;
+}
+#contactLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -17px;
+}
+#godfatherNameLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: -17px;
+}
+#motherNameLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -17px;
+}
+#fatherNameLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -17px;
+}
+#godmotherNameLabel {
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: -17px;
+}
+
+#whiteBox {
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 35px;
+}
